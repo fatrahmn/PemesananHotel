@@ -14,9 +14,8 @@ class Reservasi extends Model
     protected $fillable = [
         'id_reservasi',
         'customer_id',
-        'tanggal',
-        'tanggal_masuk',
-        'tanggal_keluar',
+        'tanggal_mulai',
+        'tanggal_akhir',
         'id_hotel'
     ];
     
